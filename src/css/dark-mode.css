@@ -1,0 +1,32 @@
+body.dark-mode {
+  background-color: #111; /* Set your dark mode background color */
+}
+
+body.dark-mode .movie-title {
+  color: #dddddd;
+}
+
+body.dark-mode .movie-title {
+  color: #dddddd;
+}
+
+body.dark-mode .footer {
+  background: #1b1a1a;
+}
+
+body.dark-mode .footer-font-size {
+  color: #dddddd;
+}
+
+body.dark-mode .footer-heart-icon-custom {
+    /* filter: invert(1); */
+    filter: invert(0.3) sepia(100%) saturate(3500%) hue-rotate(0);
+}
+
+body.dark-mode .footer-color-font{
+  color: #e4402a;
+}
+
+body.dark-mode .pagination a {
+    color: #dddddd;
+  }

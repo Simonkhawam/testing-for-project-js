@@ -18,6 +18,7 @@
     "url": "https://github.com/Simonkhawam/testing-for-project-js/issues"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
