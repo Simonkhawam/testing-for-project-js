@@ -1,0 +1,2 @@
+!function(){var e=document.getElementsByClassName("btn1_container")[0],t=document.querySelector(".fas");e.addEventListener("click",(function(){t.classList.toggle("fa-circle"),t.classList.toggle("fa-moon"),t.classList.toggle("active1"),e.classList.toggle("changeBg"),document.body.classList.contains("dark-mode")?document.body.classList.replace("dark-mode","light-mode"):document.body.classList.replace("light-mode","dark-mode")}))}();
+//# sourceMappingURL=index.03e3e1dc.js.map

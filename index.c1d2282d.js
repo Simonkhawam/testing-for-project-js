@@ -1,0 +1,2 @@
+const e=document.getElementsByClassName("btn1_container")[0],s=document.querySelector(".fas");e.addEventListener("click",(()=>{s.classList.toggle("fa-circle"),s.classList.toggle("fa-moon"),s.classList.toggle("active1"),e.classList.toggle("changeBg"),document.body.classList.contains("dark-mode")?document.body.classList.replace("dark-mode","light-mode"):document.body.classList.replace("light-mode","dark-mode")}));
+//# sourceMappingURL=index.c1d2282d.js.map
