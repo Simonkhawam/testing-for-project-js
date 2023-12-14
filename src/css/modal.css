@@ -12,7 +12,6 @@
   max-width: 400px;
   overflow-y: auto;
   z-index: 51;
-  pointer-events: none;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -46,4 +45,28 @@
 
 .hidden {
   display: none;
+}
+
+/* Stilizare continut modal */
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-movie-poster {
+  width: 240px;
+  height: 357px;
+  flex-shrink: 0;
+}
+
+.modal-movie-overview {
+  width: 240px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
 }
